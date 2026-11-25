@@ -6,7 +6,7 @@
 class Agentport < Formula
   desc "Let a coding agent use your machine's ports over SSH, with approval"
   homepage "https://github.com/rafaelb13/agentport"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   livecheck do
@@ -16,21 +16,21 @@ class Agentport < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.1/agentport_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "e8c5781d4a38f0d92140519715abf41548689237db55af534d4ab9efa85b5030"
+      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.2/agentport_v0.1.2_darwin_arm64.tar.gz"
+      sha256 "7f6b3bd29a8cb36f7b5dfda282a0ac45c6bc0a172a9262da4b4c994386572ef0"
     else
-      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.1/agentport_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "0cbffac13045c7ea0c8a5ded01c5dceebb012798578dfae8437d90beb835fbd6"
+      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.2/agentport_v0.1.2_darwin_amd64.tar.gz"
+      sha256 "d5ed54ee6f1ac1e7894b99274ffb13d05c10f4994a20eb8453aace5fb1855c75"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.1/agentport_v0.1.1_linux_arm64.tar.gz"
-      sha256 "02e2796f6b00e7c2292cc3bd2e8aed094b2650fca83f04e6e8f8141dc16debdf"
+      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.2/agentport_v0.1.2_linux_arm64.tar.gz"
+      sha256 "7e4c648c9eab9fda3d74d8610995902df3e2d967159eb02eac0b2d64a32dcaab"
     else
-      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.1/agentport_v0.1.1_linux_amd64.tar.gz"
-      sha256 "a17af48c8ec504e8317d3a09e6d011001d1bd09c9940a15269d3cb1759bcc95c"
+      url "https://github.com/rafaelb13/agentport/releases/download/v0.1.2/agentport_v0.1.2_linux_amd64.tar.gz"
+      sha256 "8858ca2edea7b4416a67a22ad1496cb203932740f72166ceb4ca70ef681cd5b3"
     end
   end
 
